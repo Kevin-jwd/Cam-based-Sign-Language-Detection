@@ -1,0 +1,25 @@
+# Python / Pycache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Assets & Data (대용량 데이터셋 및 소스 이미지 제외)
+assets/data/
+*.zip
+*.tar.gz
+*.jpg
+*.jpeg
+*.png
+
+# Extracted Landmarks CSV & Model Weights (선택사항: 저장소에 공유하려면 주석 처리 가능)
+assets/csv/*.csv
+assets/models/*.pth
+assets/models/*.onnx
+assets/models/*.engine
+
+# IDE & OS files
+.DS_Store
+.vscode/
+.idea/
