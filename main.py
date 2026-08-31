@@ -95,7 +95,7 @@ def main():
 
     text_manager = TextManager(threshold_count=7, cooldown_frames=10)
     # 속도 최우선 모델 qwen3.5:0.8b 적용 (필요 시 gemma3:4b로 변경 가능)
-    ollama_mgr = OllamaManager(model_name="qwen3.5:0.8b")
+    ollama_mgr = OllamaManager(model_name="qwen2.5:3b")
 
     mp_hands = mp.solutions.hands
     mp_draw = mp.solutions.drawing_utils
